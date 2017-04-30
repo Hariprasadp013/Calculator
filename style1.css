@@ -1,0 +1,39 @@
+body{
+background-color:#D3D3D3;
+color:white;
+}
+
+.container{
+width:220px;
+height:400px;
+ 
+margin:40 auto;
+background-color:#fff;
+box-shadow: 0 7px black;
+  border: none;
+  border-radius: 15px;
+}
+
+.text-right{
+margin-top:50px;
+width:190px;
+height:50px;
+background-color:black;
+color:white;
+font-size:25px;
+}
+.btn-primary{
+background-color:#D3D3D3;
+box-shadow: 0 2px #A9A9A9;
+width:34px;
+}
+.btn-success
+{
+box-shadow: 0 2px #1b5e20;
+}
+.btn-danger{
+background-color:#f44336;
+box-shadow: 0 2px #b71c1c;
+}
+
+

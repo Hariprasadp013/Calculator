@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+<script src="calc.js"></script>
+</head>
+<body>
+<h2 align="center">Calculator</h2>
+<div class="container" id="cont">
+<div class="input-group" id="result">
+ <form name="calc">
+  <input type="text"  class="text-right " name="result" readonly>
+</form>
+</div>
+<div class="btn-toolbar4">
+  <div class="btn btn-danger btn-block" id="CE" onclick="clearScreen()">CE</div>
+</div>
+<br>
+
+<div class="btn-toolbar1">
+  <div class="btn btn-primary" id="1" onclick="myFunction(this.id)">1</div>
+  <div class="btn btn-primary" id="2" onclick="myFunction(this.id)">2</div>
+  <div class="btn btn-primary" id="3" onclick="myFunction(this.id)">3 </div>
+  <div class="btn btn-primary" id="+" onclick="myFunction(this.id)">+</div>
+  <div class="btn btn-primary" id="/" onclick="myFunction(this.id)">/</div>
+</div>
+<br>
+<div class="btn-toolbar2">
+  <div class="btn btn-primary" id="4" onclick="myFunction(this.id)">4</div>
+  <div class="btn btn-primary" id="5" onclick="myFunction(this.id)">5</div>
+  <div class="btn btn-primary" id="6" onclick="myFunction(this.id)">6</div>
+  <div class="btn btn-primary" id="-" onclick="myFunction(this.id)">-</div>
+  <div class="btn btn-primary" id="%" onclick="myFunction(this.id)">%</div>
+</div>
+<br>
+<div class="btn-toolbar3">
+  <div class="btn btn-primary" id="7" onclick="myFunction(this.id)">7</div>
+  <div class="btn btn-primary" id="8" onclick="myFunction(this.id)">8</div>
+  <div class="btn btn-primary" id="9" onclick="myFunction(this.id)">9</div>
+  <div class="btn btn-primary" id="0" onclick="myFunction(this.id)">0</div>
+  <div class="btn btn-primary" id="*" onclick="myFunction(this.id)">*</div>
+</div>
+<br>
+<div class="btn-toolbar4">
+  <div class="btn btn-success btn-block" id="=" onclick="calculate()">=</div>
+</div>
+</div>
+
+</body>
+</html>
